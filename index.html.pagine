@@ -1,0 +1,54 @@
+template = "/templates/index.gohtml"
+
+[data]
+lang = "en"
+title = "Symboltics"
+
+[data.nav]
+items = [
+    { name = "SOLUTIONS", link = "" },
+    { name = "PRODUCTS", link = "" },
+    { name = "CONTACT", link = "" },
+    { name = "ABOUT", link = "" },
+]
+
+[data.nav.logo]
+src = "/assets/img/symboltics.svg"
+height = 28
+
+[data.footer]
+lists = [
+    { title = "About Symboltics", links = [
+        { name = "Vision", link = "" },
+        { name = "Mission", link = "" },
+        { name = "Where we go", link = "" },
+        { name = "Where we from", link = "" },
+    ]},
+    { title = "Infrastructure", links = [
+        { name = "LangVM", link = "" },
+        { name = "Symonarch", link = "" },
+        { name = "HyperArchy", link = "" },
+        { name = "Web Pagine", link = "" },
+    ]},
+    { title = "Services", links = [
+        { name = "Cool, isn't it?", link = "" },
+        { name = "It follows TI.com", link = "" },
+        { name = "Intro", link = "" },
+        { name = "Intro", link = "" },
+    ]},
+]
+
+[data.footer.logo]
+src = "/assets/img/symboltics_white.svg"
+height = 40
+
+[data.footer.media]
+list = [
+    { logo = "github", link = "https://github.com/jellyterra" },
+    { logo = "twitter", link = "https://twitter.com/jellyterra" },
+]
+
+[data.footer.copyright]
+owner = "Symboltics"
+date = "2024"
+license = "All rights reserved."
