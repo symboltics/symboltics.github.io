@@ -1,0 +1,14 @@
+{{ with .data }}
+<header class="nav-bar">
+    {{ with .nav }}
+        <div class="nav-logo" style="float: left">
+            <img src="{{ .logo.src }}" alt="logo" width="{{ .logo.width }}" height="{{ .logo.height }}"/>
+        </div>
+        <nav style="float: right">
+            {{ range .items }}
+                <a class="nav-item-link" href="{{ .link }}">{{ .name }}</a>
+            {{ end }}
+        </nav>
+    {{ end }}
+</header>
+{{ end }}
