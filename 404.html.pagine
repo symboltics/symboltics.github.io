@@ -2,13 +2,9 @@
 header = "/templates/header.gohtml"
 footer = "/templates/footer.gohtml"
 head = "/templates/head.gohtml"
-main = "/templates/mainpage.gohtml"
+main = "/templates/404.gohtml"
 
 [include]
-head = [ "/data/head.toml" ]
 header = [ "/data/header.toml" ]
 footer = [ "/data/footer.toml" ]
-
-[define.main]
-lang = "en"
-title = "Symboltics"
+head = [ "/data/head.toml" ]
