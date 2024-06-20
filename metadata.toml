@@ -1,0 +1,70 @@
+[genesis]
+lang = "en"
+
+[internal.head]
+icon = "https://avatars.githubusercontent.com/u/166796215"
+
+# Header
+
+[internal.header.nav.logo]
+src = "/assets/img/symboltics.svg"
+height = 28
+
+[[internal.header.nav.items]]
+title = "SOLUTIONS"
+link = "/"
+
+[[internal.header.nav.items]]
+title = "PRODUCTS"
+link = "/"
+
+[[internal.header.nav.items]]
+title = "CONTACT"
+link = "/"
+
+[[internal.header.nav.items]]
+title = "ABOUT"
+link = "/"
+
+# Footer
+
+[internal.footer.logo]
+src = "/assets/img/symboltics_mono.svg"
+height = 40
+
+[internal.footer.copyright]
+owner = "Symboltics"
+date = "2024"
+license = "Text is available under the <a target=\"_blank\" href=\"https://creativecommons.org/licenses/by-sa/4.0/legalcode.en\">Creative Commons Attribution-ShareAlike License 4.0</a>; additional terms may apply."
+
+[[internal.footer.lists]]
+title = "About Symboltics"
+links = [
+    { name = "Vision", link = "" },
+    { name = "Mission", link = "" },
+    { name = "Where we go", link = "" },
+    { name = "Where we come", link = "" },
+]
+
+[[internal.footer.lists]]
+title = "Infrastructure"
+links = [
+    { name = "LangVM", link = "https://github.com/langvm" },
+    { name = "Symonarch", link = "https://github.com/symonarch" },
+    { name = "HyperArchy", link = "https://github.com/hyperarchy" },
+    { name = "Web Pagine", link = "https://github.com/webpagine" },
+]
+
+[[internal.footer.lists]]
+title = "Services"
+links = [
+    { name = "Modularis", link = "https://github.com/symboltics/modularis" },
+]
+
+[[internal.footer.media.list]]
+icon = "github"
+link = "https://github.com/jellyterra"
+
+[[internal.footer.media.list]]
+icon = "x"
+link = "https://x.com/jellyterra"

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="{{ .lang }}">
+<head>
+<title>{{ .title }}</title>
+{{ template "head.html" .head }}
+</head>
+<body class="theme-light" style="height: 100vh; background-image: url('/assets/img/title.svg'); background-repeat: no-repeat; background-position: center">
+{{ template "header.html" .header }}
+<div style="height: 100vh"></div>
+<div class="theme-dark">
+{{ template "footer.html" .footer }}
+</div>
+</body>
+</html>

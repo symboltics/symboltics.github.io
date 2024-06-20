@@ -1,0 +1,48 @@
+.nav-bar {
+    padding: 0 100px;
+
+    user-select: none;
+
+    font-family: "Noto Sans", serif;
+    font-weight: bolder;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-item-link {
+    padding: 40px;
+
+    text-decoration: none;
+
+    transition-duration: 200ms;
+}
+
+.theme-light .nav-item-link {
+    color: black;
+}
+
+.theme-light .nav-item-link:hover {
+    color: white;
+    background-color: red;
+}
+
+.nav-item-link-external {
+    margin: 0 30px 0 0;
+    padding: 10px 20px;
+    border-radius: 30px;
+
+    text-decoration: none;
+
+    transition-duration: 200ms;
+}
+
+.theme-light a.nav-item-link-external {
+    color: black;
+}
+
+.theme-light a.nav-item-link-external:hover {
+    color: white;
+    background-color: #ff006a;
+}

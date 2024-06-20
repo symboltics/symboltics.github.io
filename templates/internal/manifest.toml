@@ -1,0 +1,7 @@
+[manifest]
+canonical = "com.symboltics.pages.internal"
+patterns = [ "/templates/*html" ]
+
+[[templates]]
+export = "mainpage.html"
+name = "mainpage"
