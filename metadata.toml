@@ -11,16 +11,8 @@ src = "/assets/img/symboltics.svg"
 height = 28
 
 [[internal.header.nav.items]]
-title = "SOLUTIONS"
-link = "/"
-
-[[internal.header.nav.items]]
-title = "PRODUCTS"
-link = "/"
-
-[[internal.header.nav.items]]
-title = "CONTACT"
-link = "/"
+title = "JELLY TERRA"
+link = "https://jellyterra.symboltics.com"
 
 [[internal.header.nav.items]]
 title = "ABOUT"
@@ -40,10 +32,10 @@ license = "Text is available under the <a target=\"_blank\" href=\"https://creat
 [[internal.footer.lists]]
 title = "About Symboltics"
 links = [
-    { name = "Vision", link = "" },
-    { name = "Mission", link = "" },
-    { name = "Where we go", link = "" },
-    { name = "Where we come", link = "" },
+    { name = "Vision", link = "https://symboltics.com" },
+    { name = "Mission", link = "https://symboltics.com" },
+    { name = "Where we go", link = "https://symboltics.com" },
+    { name = "Where we come", link = "https://symboltics.com" },
 ]
 
 [[internal.footer.lists]]
@@ -52,7 +44,7 @@ links = [
     { name = "LangVM", link = "https://github.com/langvm" },
     { name = "Symonarch", link = "https://github.com/symonarch" },
     { name = "HyperArchy", link = "https://github.com/hyperarchy" },
-    { name = "Web Pagine", link = "https://github.com/webpagine" },
+    { name = "Web Pagine", link = "https://pagine.symboltics.com" },
 ]
 
 [[internal.footer.lists]]
