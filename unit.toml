@@ -1,4 +1,4 @@
 [[unit]]
 template = "internal:mainpage"
 output = "/index.html"
-define = { title = "Symboltics" }
+define = { title = "Symboltics - Burst the future with EECS" }
